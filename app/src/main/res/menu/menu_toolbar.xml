@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/betslip"
+        android:icon="@drawable/betting_slip"
+        android:title="@string/betslip"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_style"
+        android:icon="@drawable/trophy"
+        android:title="@string/toolbar"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/eb"
+                    android:checked="true"
+                    android:title="@string/eb" />
+                <item
+                    android:id="@+id/vb_afr"
+                    android:checked="false"
+                    android:title="@string/vb_afr" />
+                <item
+                    android:id="@+id/vb_eur"
+                    android:checked="false"
+                    android:title="@string/vb_eu" />
+                <item
+                android:id="@+id/pl"
+                android:checked="false"
+                android:title="@string/pl" />
+
+                <item
+                android:id="@+id/seriea"
+                android:checked="false"
+                android:title="@string/seriea" />
+
+                <item
+                android:id="@+id/bundesliga"
+                android:checked="false"
+                android:title="@string/bundesliga" />
+
+                <item
+                    android:id="@+id/ligue1"
+                    android:checked="false"
+                    android:title="@string/ligue1" />
+
+                <item
+                    android:id="@+id/laliga"
+                    android:checked="false"
+                    android:title="@string/laliga" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
